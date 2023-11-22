@@ -67,7 +67,7 @@ $harga = $_POST['har_barang'];
 $jumlah = $_POST['jml_barang'];
 $diskon = $_POST['diskon'];
 } 
-// $diskon = 50;
+
 $total = $harga * $jumlah;
 $Hdiskon = $diskon/100 * $total;
 $akhir = $total- $Hdiskon;
